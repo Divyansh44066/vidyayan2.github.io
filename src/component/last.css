@@ -1,0 +1,150 @@
+.last_sec{
+    height: 100vh;
+    background: #ffffff;
+
+}
+.flex{
+    display: flex;
+}
+.fifty{
+    margin-left: 10%;
+   height: 30vh;
+   width: 30vw;
+   /* background: chartreuse; */
+  
+}
+.every{
+    display: flex;
+    padding: 17px;
+}
+.circle{
+    margin-right: 20px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #590BB2;
+}
+.every p span{
+   font-weight: 500;
+   font-size: 20px;
+}
+.every p {
+   font-weight: 100;
+   font-size: 15px;
+}
+.work{
+    display: flex;
+    height: 80px;
+    margin-right: 60px;
+    justify-content: center;
+    color: #590BB2;
+    font-family: 'Roboto', sans-serif;
+    align-items: center;
+    
+}
+.last_main{
+    flex-direction: column;
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right,#41237E 50%, #92125F 100%);
+}
+.last_main a{
+    padding: 9px 30px;
+    background: #E91E63;
+    border-radius: 10px;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+.last_main h1{
+  
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 1px;
+}
+@media only screen and (max-width: 1025px){
+    .last_main{
+        transform: translateY(-50%);
+    }
+   
+.fifty{
+    width: 37vw;
+    margin: 5%;
+}
+.fifty{
+
+   transform: translateY(-20%);
+}
+.every{
+   
+    padding: 17px;
+}
+
+}
+@media only screen and (max-width: 786px){
+.last_sec{
+    width: 130vw;
+}
+}
+@media only screen and (max-width: 375px){
+    .last_sec{
+        width: 159vw;
+    }
+    .every{
+   
+        padding: 10px;
+    }
+    .every p span{
+        font-weight: 400;
+        font-size: 15px;
+     }
+     .every p {
+        font-weight: 100;
+        font-size: 9px;
+     }
+     .circle{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 9px;
+    }
+    
+}
+@media only screen and (max-width: 450px){
+    .last_sec{
+        width: 200vw;
+    }
+    .every{
+   
+        padding: 10px;
+    }
+    .every p span{
+        font-weight: 400;
+        font-size: 15px;
+     }
+     .every p {
+        font-weight: 100;
+        font-size: 9px;
+     }
+     .circle{
+        margin-right: 10px;
+        width: 30px;
+        height: 30px;
+        border-radius: 50px;
+        font-size: 9px;
+    }
+    
+}
+@media only screen and (max-width: 540px){
+    .last_main{
+        display: none;
+    }
+
+}

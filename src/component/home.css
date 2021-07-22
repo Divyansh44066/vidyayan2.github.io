@@ -1,0 +1,345 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+    
+}
+header{
+    height:  100vh;
+  
+    background-color: #EEE7E7;
+   
+}
+.cod{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+nav{
+    background: #FB5B16;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+}
+nav h1{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    margin: 30px;
+    font-size: 22px;
+}
+.heading{
+    width: 40vw;
+    height: 50vh;
+    margin: 2%;
+    /* background: white; */
+    padding: 2%;
+    padding-top: 6%;
+}
+.heading h1{
+    display: block;
+    color: #FB5B16 ;
+    font-size: 32px;
+    line-height: 37px;
+}
+.heading h1 span{
+
+    color: #000000 ;
+}
+
+.heading p{
+    color: #434040;
+    margin-top: 5%;
+}
+.btn_Div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn{
+    padding: 7px 27px;
+    background: #FB5B16;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    line-height: 23px;
+    font-size: 17px;
+    font-weight: 500;
+ 
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.edge{
+    height: 30px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#FB5B16;
+    font-weight: 500;
+}
+.course_div{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+}
+.img{
+  
+    height: 140px;
+    width: 150px;
+    z-index: 2;
+ 
+}
+.yellow{
+    position: absolute;
+    height: 80px;
+    width: 90px;
+    z-index: -1;
+    transform: rotate(22deg);
+}
+.logo{
+    width: 50px;
+    position: absolute;
+    margin-left: 20px;
+    transform: translateY(29%);
+    
+}
+.course_head{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:100 ;
+    position: relative;
+   top: 70%;
+   left: 10%;
+   color:#494747;
+}
+.course_head-2{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight:100 ;
+    position: relative;
+   top: 70%;
+   left: -20px;
+   color:#494747;
+   
+}
+@media only screen and (max-width: 1025px){
+    header{
+        height:  80vh;
+      
+    }
+    nav{
+        height: 4vh;
+    }
+}
+@media only screen and (max-width: 786px){
+    header{
+        height:  80vh;
+        width: 130vw;
+      
+    }
+    nav{
+        height: 4vh;
+    }
+    .yellow{
+        height: 40px;
+        width: 90px;
+        z-index: -1;
+    }
+    .logo{
+        width: 20px;
+        margin-left: 35px;
+    }
+    .course_div{
+      
+        padding-right: 100px;
+        padding-left:0px;
+        padding-top: 30px;
+    }
+    .course_head{
+      
+       top: 50%;
+       left: 25%;
+       color:#494747;
+       font-size: 12px;
+    }
+    .course_head-2{
+       top: 50%;
+       left: 20px;
+       color:#494747;
+       font-size: 12px;
+    }
+}
+@media only screen and (max-width: 375px){
+    .cod{
+        display: none;
+    }
+    header{
+        width: 159vw;
+    }
+    .heading{
+        width: 80vw;
+        transform: translateX(20%);
+    }
+    .heading p{
+       font-size: 12px;
+    }
+    .edge{
+        height: 30px;
+        width: 150vw;
+      font-size: 12px;
+       
+    }
+    .yellow{
+        height: 40px;
+        width: 90px;
+        z-index: -1;
+    }
+    .logo{
+        width: 20px;
+        margin-left: 35px;
+    }
+    .course_div{
+      
+        padding-right: 100px;
+        padding-left:0px;
+        padding-top: 30px;
+    }
+    .course_head{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:100 ;
+        position: relative;
+       top: 50%;
+       left: 37%;
+       color:#494747;
+       font-size: 9px;
+    }
+    .course_head-2{
+       top: 50%;
+       left: 30px;
+       color:#494747;
+       font-size: 8px;
+    }
+}
+@media only screen and (max-width:450px){
+    header{
+        width: 200vw;
+    }
+    .heading{
+        width: 80vw;
+        transform: translateX(20%);
+    }
+    .heading p{
+       font-size: 12px;
+    }
+    .edge{
+        height: 30px;
+        width: 150vw;
+      font-size: 12px;
+       
+    }
+    .yellow{
+        height: 40px;
+        width: 90px;
+        z-index: -1;
+    }
+    .logo{
+        width: 20px;
+        margin-left: 35px;
+    }
+    .course_div{
+      
+        padding-right: 100px;
+        padding-left:0px;
+        padding-top: 30px;
+    }
+    .course_head{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:100 ;
+        position: relative;
+       top: 50%;
+       left: 37%;
+       color:#494747;
+       font-size: 9px;
+    }
+    .course_head-2{
+       top: 50%;
+       left: 30px;
+       color:#494747;
+       font-size: 8px;
+    }
+    .cod{
+        display: none;
+    }
+}
+@media only screen and (max-width: 360px){
+    .cod{
+        display: none;
+    }
+    header{
+        width: 250vw;
+    }
+    .heading{
+        width: 80vw;
+        transform: translateX(20%);
+    }
+    .heading p{
+       font-size: 12px;
+    }
+    .edge{
+        height: 30px;
+        width: 150vw;
+      font-size: 12px;
+       
+    }
+    .yellow{
+        height: 40px;
+        width: 90px;
+        z-index: -1;
+    }
+    .logo{
+        width: 20px;
+        margin-left: 35px;
+    }
+    .course_div{
+      
+        padding-right: 100px;
+        padding-left:0px;
+        padding-top: 10px;
+    }
+    .course_head{
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight:100 ;
+        position: relative;
+       top: 35%;
+       left: 37%;
+       color:#494747;
+       font-size: 9px;
+    }
+    .course_head-2{
+       top: 35%;
+       left: 30px;
+       color:#494747;
+       font-size: 8px;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    header{
+        width: 180vw;
+    }
+    .cod{
+        width: 250px;
+    }
+
+}

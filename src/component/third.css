@@ -1,0 +1,320 @@
+.third-sec{
+    height: 100vh;
+   
+    background: #EEE7E7;
+}
+
+.third_div{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+
+}
+.third_div img{
+    width: 100%;
+    padding: 30px;
+}
+.know-more{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+    width: 81%;
+    margin-left: 9.5%;
+    background: white;
+    transform: translateY(-34px);
+}
+.know-more p{
+   color: blue;
+   
+}
+.know-more h1{
+    border-top: .9px solid rgba(82, 82, 82, 0.439);
+    font-size: 20px;
+   color: blue;
+   font-weight: 400;
+   transform: translateY(150%);
+   
+}
+.blue{
+    height: 80vh;
+    width: 90%;
+}
+.poster{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    left: 70%;
+    transform: translateX(-50%);
+}
+.book{
+    position: relative; 
+    right: -13%;
+    color: white;
+    z-index: 2;
+     top: -79%;
+    
+}
+.book_back{
+    
+    top: -70%; 
+    position: relative;
+    /* right: -5%; */
+    color: white;
+    
+}
+.back{
+    
+    top: -118%; 
+     position: relative;
+    right: 25.5%;
+    color: white;
+    
+}
+.back2{
+    
+    top: -87%;
+    /* left: -70%; */
+
+    position: relative;
+    right: 14.5%;
+    color: white;
+    
+}
+.back_R{
+    
+    top: -70%;
+    /* left: -70%; */
+
+    position: relative;
+    right: -25%;
+    color: white;
+    
+}
+.back_F{
+    
+    top: -75%;
+    /* left: -70%; */
+
+    position: relative;
+    right: -10%;
+    color: white;
+    z-index: 2;
+    
+}
+.book_cover{
+    
+    top: -86%;
+    position: relative;
+    right: 15%;
+    color: white;
+    
+}
+.back_D{
+    height: 49px;
+    width: 78px;
+    top: -116%; 
+    position: relative;
+     right: -76.3%;
+    background:  #FFD5B8;
+    z-index: 1;
+    border-radius: 7px;
+}
+.cover{
+   margin-top: 40px;
+}
+.gradient{
+    
+    height: 150px;
+    width: 50%;
+    background: linear-gradient(to right,#41237E 50%, #92125F 100%);
+    display: inline-block;
+    position: relative;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 10px;
+}
+.third_btn{
+    
+    position: relative;
+    top: -150%;
+    left: 45%;
+    border-radius: 10px;
+    padding: 9px 40px;
+    background: #E91E63;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
+}
+main{
+    height: 30vh;
+ 
+    background: #EAE7FB;
+}
+main div{
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+   color: #590BB2;
+   font-family: 'Roboto', sans-serif;
+
+}
+main div img{
+    width: 5%;
+}
+.vector{
+    display: flex;
+    justify-content: space-around;
+}
+.vector div{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+.line{
+    width: 18%;
+}
+@media only screen and (max-width: 1025px){
+    .third-sec{
+        height: 70vh;
+    }
+    .know-more{
+        
+        width: 76%;
+        margin-left: 12%;
+       
+    }
+    .third_btn{
+        top: -210%;
+        left: 50%;
+    
+    }
+    .back{
+    
+       
+        right: 37.6%;        
+    }
+    .back2{
+        
+        top: -87%;
+        right: 23%;
+  
+    }
+    main{
+        height: 20vh;
+    }
+}
+@media only screen and (max-width: 786px){
+    .third-sec{
+        width: 130vw;
+    }
+    main{
+  
+        width: 130vw;
+    }
+    .gradient{
+        display: none;
+      
+    }
+    .third_btn{
+       display: none;
+    }
+    
+
+}
+
+
+
+@media only screen and (max-width: 375px){
+    .third-sec{
+        width: 159vw;
+        height: 50vh;
+    }
+    .know-more{
+        
+        width: 60%;
+        margin-left: 20%;
+        height: 70px;
+       
+    }
+    .know-more p{
+font-size: 8px;
+    }
+    .know-more h1{
+       font-size: 14px;
+    }
+    main{
+        width: 159vw;
+    }
+    
+.gradient{
+    display: none;
+  
+}
+.third_btn{
+   display: none;
+}
+}
+@media only screen and (max-width: 450px){
+    
+.gradient{
+    display: none;
+  
+}
+.third_btn{
+   display: none;
+}
+    .third-sec{
+        width: 200vw;
+        height: 50vh;
+    }
+    .know-more{
+        
+        width: 70%;
+        margin-left: 15%;
+        height: 70px;
+       
+    }
+    .know-more p{
+font-size: 8px;
+    }
+    .know-more h1{
+       font-size: 14px;
+    }
+    main{
+        width: 200vw;
+    }
+}
+@media only screen and (max-width: 360px){
+    .third-sec{
+        width: 250vw;
+        height: 50vh;
+    }
+    .know-more{
+        
+        width: 60%;
+        margin-left: 20%;
+        height: 70px;
+       
+    }
+    .know-more p{
+font-size: 8px;
+    }
+    .know-more h1{
+       font-size: 14px;
+    }
+    main{
+        width: 250vw;
+    }
+    
+}
+@media only screen and (max-width: 540px){
+    .third-sec{
+        width: 180vw;
+    }
+    main{
+        width: 180vw;
+    }
+    
+}
